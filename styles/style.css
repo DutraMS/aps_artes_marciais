@@ -11,7 +11,6 @@
   --shadow: rgba(0, 0, 0, 0.3);
 }
 
-/* Override Bootstrap defaults com especificidade maior */
 body {
   background-color: var(--bg-primary) !important;
   color: var(--text-primary) !important;
@@ -19,7 +18,6 @@ body {
   line-height: 1.6 !important;
 }
 
-/* Navegação customizada */
 nav {
   background-color: var(--bg-secondary);
   padding: 1rem 0;
@@ -49,7 +47,6 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* Main content */
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -57,7 +54,6 @@ main {
   min-height: 80vh;
 }
 
-/* Títulos */
 h1 {
   color: var(--accent-color) !important;
   text-align: center;
@@ -79,14 +75,12 @@ h6 {
   margin-bottom: 1rem !important;
 }
 
-/* Parágrafos */
 p {
   color: var(--text-secondary) !important;
   margin-bottom: 1.5rem !important;
   line-height: 1.7 !important;
 }
 
-/* Cards customizados */
 .card-custom {
   background-color: var(--bg-secondary) !important;
   border: 1px solid var(--border-color) !important;
@@ -108,7 +102,6 @@ p {
   color: var(--text-secondary) !important;
 }
 
-/* Responsividade melhorada */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
