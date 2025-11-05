@@ -5,55 +5,117 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Artes Marciais no Vale do Paraíba</title>
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  
   <link rel="stylesheet" href="styles/style.css" />
-  <link rel="icon" type="image/png" href="/images/icone.png">
+  
+  <link rel="icon" type="image/png" href="images/icone.png">
 </head>
 
 <body>
+
   <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Artes Marciais no Vale</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Introdução</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/p2-jiujitsu.html">Jiu-Jitsu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/p3-judo.html">Judô</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/p4-capoeira.html">Capoeira</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/p5-muaythai.html">Muay Thai</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/p6-impacto.html">Impacto Social</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/form.html">Contato</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Artes Marciais no Vale</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Introdução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/p2-jiujitsu.html">Jiu-Jitsu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/p3-judo.html">Judô</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/p4-capoeira.html">Capoeira</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/p5-muaythai.html">Muay Thai</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/p6-impacto.html">Impacto Social</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/form.html">Contato</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
-  <main>
-    <h1>Trabalho Acadêmico — Artes Marciais no Vale do Paraíba</h1>
-    <p>
-      Este site contém seis seções acadêmicas em padrão ABNT, abordando
-      diferentes artes marciais na região do Vale do Paraíba, São Paulo.
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <h1 class="mb-5 text-center">Artes Marciais no Vale do Paraíba</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+
+      <div class="col">
+        <div class="card card-custom h-100">
+          <img src="images/index/jiujitsu.jpg" class="card-img-top" alt="Lutadora de Jiujitsu Rayssa Silva no Campeonato no Rio de Janeiro"> <!-- https://agenciapara.com.br/noticia/31671/lutadores-representarao-o-para-em-campeonato-brasileiro-de-jiu-jitsu -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Jiu-Jitsu</h5>
+            <p class="card-text">
+              Originário das técnicas japonesas e adaptado pela família Gracie, o Brazilian Jiu-Jitsu foca em alavancas e controle no solo, tornando-se uma força global.
+            </p>
+            <a href="pages/p2-jiujitsu.html" class="btn btn-outline-warning mt-auto">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-custom h-100">
+          <img src="images/index/judo.jpg" class="card-img-top" alt="Torneio Jarbas Dias Ferreira de Judô em SJC"> <!-- https://fpj.com.br/torneio-jarbas-dias-ferreira-abre-calendario-regional-do-judo-no-vale-do-paraiba/ -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Judô</h5>
+            <p class="card-text">
+              Criado por Jigoro Kano em 1882, o Judô evoluiu do jujutsu, priorizando a disciplina e o uso eficiente da energia. É um pilar esportivo e educacional na região.
+            </p>
+            <a href="pages/p3-judo.html" class="btn btn-outline-warning mt-auto">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-custom h-100">
+          <img src="images/index/capoeira.jpg" class="card-img-top" alt="Grupo de Capoeira Quilombo Raça em Jacareí"> <!-- https://www.sindmetalsjc.org.br/n/6616/grupo-de-capoeira-quilombo-raca-e-classe-e-fundado-em-jacarei -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Capoeira</h5>
+            <p class="card-text">
+              Expressão cultural afro-brasileira que mistura luta, dança e música. Símbolo de resistência, possui mestres e grupos tradicionais consolidados no Vale.
+            </p>
+            <a href="pages/p4-capoeira.html" class="btn btn-outline-warning mt-auto">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-custom h-100">
+          <img src="images/index/muaythai.png" class="card-img-top" alt="Lutador Carlos Prates contra Li Jingliang"> <!-- https://ge.globo.com/sp/vale-do-paraiba-regiao/noticia/2024/11/08/quem-e-carlos-prates-conheca-o-lutador-comparado-a-anderson-silva-que-fara-luta-principal-do-ufc-vegas-100.ghtml -->
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Muay Thai</h5>
+            <p class="card-text">
+              Conhecida como a "arte das oito armas", a modalidade tailandesa ganhou força no Brasil nos anos 80 e hoje é uma prática popular em academias por todo o Vale.
+            </p>
+            <a href="pages/p5-muaythai.html" class="btn btn-outline-warning mt-auto">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div> </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">
+      Trabalho acadêmico — Faculdade Vanguarda | Artes Marciais no Vale do Paraíba
     </p>
-  </main>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
